@@ -64,4 +64,6 @@ LOCAL_C_INCLUDES += $(ANDROID_MEDIA_INC)/openmax
 endif
 endif
 
+LOCAL_CFLAGS += -Wno-error
+
 include $(BUILD_SHARED_LIBRARY)
