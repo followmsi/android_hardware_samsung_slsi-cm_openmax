@@ -10,7 +10,6 @@ LOCAL_SRC_FILES := \
 LOCAL_MODULE := libExynosOMX_Basecomponent
 
 LOCAL_CFLAGS :=
-LOCAL_CFLAGS += -Wno-error
 
 LOCAL_STATIC_LIBRARIES := libExynosOMX_OSAL
 LOCAL_SHARED_LIBRARIES := libcutils libutils liblog
@@ -44,7 +43,6 @@ LOCAL_SRC_FILES := \
 LOCAL_MODULE := libExynosOMX_Resourcemanager
 
 LOCAL_CFLAGS :=
-LOCAL_CFLAGS += -Wno-error
 
 LOCAL_STATIC_LIBRARIES := libExynosOMX_OSAL
 LOCAL_SHARED_LIBRARIES := libcutils libutils
